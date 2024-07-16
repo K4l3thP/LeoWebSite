@@ -53,10 +53,20 @@ a:hover {
 }
 .IconoEstandar{
   height: 5em;
-  width: 10em;
+  width: 5em;
   font-size: 2.1em;
 }
-
+@media (width < 476px) {
+  .botonFlotanta{
+    width: 3em;
+    height: 3em;
+  }
+  .IconoEstandar{
+    height: 5em;
+  width: 10em;
+  font-size: 1.3em;
+  }
+}
 /*Barra de Navegacion*/
 nav {
   background: var(--Background);
